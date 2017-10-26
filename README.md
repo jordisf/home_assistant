@@ -23,3 +23,7 @@ allow_anonymous false
 password_file /etc/mosquitto/pwfile
 listener 1883
 
+Set user & password for a mosquitto user
+mosquitto_passwd -c /etc/mosquitto/pwfile
+
+
