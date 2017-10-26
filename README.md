@@ -8,6 +8,8 @@ Config Wifi before starting raspberry ( didn't work ). Now running on eth cable
 
 
 Mosquitto MQTT Broker: https://www.youtube.com/watch?v=AsDHEDbyLfg
+  * http://mosquitto.org/
+  * http://mosquitto.org/man/mosquitto-conf-5.html
 
 Install mosquitto
 apt-get install mosquitto
