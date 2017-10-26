@@ -14,3 +14,12 @@ Mosquitto MQTT Broker: https://www.youtube.com/watch?v=AsDHEDbyLfg
 Install mosquitto
 apt-get install mosquitto
 apt-get install mosquitto-clients
+
+Config:
+vim /etc/mosquitto/mosquitto.conf
+
+typical configs:
+allow_anonymous false
+password_file /etc/mosquitto/pwfile
+listener 1883
+
