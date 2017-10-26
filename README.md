@@ -25,5 +25,5 @@ listener 1883
 
 Set user & password for a mosquitto user
 mosquitto_passwd -c /etc/mosquitto/pwfile
-
+( note: restart service after user & pwd creation & modification )
 
